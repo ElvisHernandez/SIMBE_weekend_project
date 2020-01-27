@@ -1,0 +1,328 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+/*                                         TOP - MAIN                        */
+
+.top {
+    text-align: center;
+    height: 40rem;
+    margin-top: 7rem;
+    background-image: url(./pics/black-background-8.jpeg);
+    background-color: transparent;
+}
+.top h1 {
+    color: white;
+    font-size: 2.3rem;
+    margin-top: 3rem;
+    font-weight: 900;
+    margin-bottom: 0.5rem;
+}
+
+.top p {
+    color: #c5deea;
+    font-size: larger;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+.top form {
+    margin-top: 3rem;
+}
+
+#try-it-free-button {
+    background-color: tomato;
+    color: white;
+    border: none;
+    border-radius: 5%;
+    /* border-right: 1px solid white; */
+    font-size: 1rem;
+    font-weight: bolder;
+    margin-right: 1.1rem;
+    width: 175px;
+    height: 45px;
+}
+
+#product-tour-button {
+    background-color: #2aa2ed;
+    color: white;
+    border: none;
+    border-radius: 5%;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    margin-left: 0;
+    width: 175px;
+    height: 45px;
+}
+
+#macbook {
+    width: 40%;
+    margin-top: 4rem;
+}
+/*                                       MID - MAIN              */
+
+.mid-buttons form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 6rem;
+
+}
+.mid h1 {
+    font-size: 2.8rem;
+    color: black;
+    text-align: center;
+    padding-top: 6rem;
+    margin-bottom: 15px;
+}
+
+.mid p {
+    font-size: 1.1rem;
+    color: #707070;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.mid-buttons button {
+    background-color: white;
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: 13.5rem;
+    height: 18rem;
+}
+
+.mid-buttons button:hover {
+    border: 0.08rem solid hsl(199, 48%, 49%);
+    border-radius: 3%;
+}
+
+.mid-buttons h1 {
+    font-size: 1.2rem;
+    padding-top: 9.5rem;
+}
+
+.mid-buttons p {
+    font-size: 0.9rem;
+    /* font-weight: 500; */
+}
+
+#observe-button {
+    background-image: url(./pics/icon1.png);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+#evaluate-button {
+    background-image: url(./pics/icon2.png);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+#collaborate-button {
+    background-image: url(./pics/icon3.png);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+#academic-button {
+    background-image: url(./pics/icon4.png);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+#collaborate-button h1 {
+    margin-bottom: 0;
+}
+
+#collaborate-button p {
+    margin-bottom: 1.9rem;
+    margin-top: 0.65rem;
+}
+ 
+/*                                      BOTTOM  -  MAIN  */
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    border: 0.05rem solid lightgray;
+    background-color: #f3eded;
+}
+
+.bottom * {
+    margin-top: 0;
+    padding-top: 0.5rem;
+    list-style-type: none;
+    color: black;
+    font-size: 1rem;
+}
+.bottom h1 {
+    font-size: 1.1rem;
+}
+
+/*                                           BLOG UL */
+
+.edit-png {
+    width: 0.5rem;
+    height: 1rem;
+}
+
+.blog-list {
+    border-right: 0.05rem solid lightgray;
+    padding-right: 4rem;
+}
+
+.people-list {
+    border-right: 0.05rem solid lightgray;
+    padding-right: 2rem;
+}
+
+.blog-list h2 {
+    margin-bottom: 0;
+    font-size: 0.9rem;
+}
+
+.blog-list p {
+    margin-bottom: 0;
+    margin-left: 1rem;
+    font-size: 0.7rem;
+    color: darkgray;
+}
+
+.blog-list .follow-blog {
+    padding-top: 2rem;
+    text-decoration: underline;
+    color: tomato;
+}
+
+/*                                      WHAT PEOPLE ARE SAYING UL */
+
+.quote-png {
+    width: 1rem;
+    height: 1.5rem;
+    padding-bottom: 0.4rem;
+}
+
+.people-list p {
+    font-size: 0.9rem;
+    font-style: italic;
+    color: #757575;
+
+}
+
+#tanveer, #john {
+    display: inline-block;
+    font-size: 0.9rem;
+    font-style: normal;
+    font-weight: 900;
+    padding-top: 1rem;
+}
+
+#tanveer span, #john span {
+    color: darkgray;
+}
+
+/*                                          FAVORITE TWEETS UL */
+
+.tweets-list {
+    padding-left: 1rem;
+}
+
+.tweets-list ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 0;
+    padding-top: 0;
+}
+
+.tweets-list ul li {
+    padding-top: 0;
+}
+
+.tweets-list p {
+    font-size: 0.85rem;
+    font-weight: 900;
+    color: #424242;
+}
+
+.tweets-list .gray-text {
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: darkgray;
+}
+
+.tweets-list .blue-text {
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: #268fff;
+}
+
+.tweets-list button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 0.2rem 0 0;
+    border: 1px solid darkgray;
+    border-radius: 10%;
+    background-color: #ededed;
+}
+
+.tweets-list ul p {
+    color: black;
+    font-size: 0.7rem;
+    font-weight: 900;
+    padding: 0;
+    margin: 0 0 0.1rem 0;
+}
+.tweets-list ul img {
+    width: 1rem;
+    height: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+.first-tweet, .second-tweet {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 0.05rem solid lightgray;
+}
+
+.third-tweet {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.first-tweet img {
+    width: 3rem;
+    height: 4rem;
+    padding-right: 0.1rem;
+}
+
+#sep-4 {
+    padding-left: 6rem;
+}
+
+#sep-2 {
+    padding-left: 4rem;
+}
+
+#jul-30 {
+    padding-left: 4.5rem;
+}
+
+.second-tweet img, .third-tweet img {
+    width: 3rem;
+    height: 4rem;
+    padding: 0 0.5rem 1rem 0;
+}
